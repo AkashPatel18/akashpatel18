@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout/Layout"
-import Navbar from "../components/header/Header"
 
-export default function Home() {
+export default function NotFound() {
   return (
     <Layout>
-      <h1>hello</h1>
+      <div>
+        <h1>404</h1>
+      </div>
     </Layout>
   )
 }

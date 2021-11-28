@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout/Layout"
-import Navbar from "../components/header/Header"
 
-export default function Home() {
+export default function About() {
   return (
     <Layout>
-      <h1>hello</h1>
+      <div>
+        <h2>about</h2>
+      </div>
     </Layout>
   )
 }

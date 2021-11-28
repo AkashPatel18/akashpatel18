@@ -1,0 +1,6 @@
+.footer {
+  display: flexbox;
+  border: white;
+  border-width: 1;
+  margin-top: 200;
+}

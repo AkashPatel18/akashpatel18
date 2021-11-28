@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: "#000000";
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  background-repeat: no-repeat;
+}
