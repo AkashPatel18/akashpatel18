@@ -5,11 +5,20 @@ import "./styles.css"
 export default function Header() {
   return (
     <header>
-      <nav>
+      <nav className="nav">
+        {/* <div>
+          <Link to="/">AKASH PATEL</Link>
+        </div> */}
         <div className="links">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/projects">Projects</Link>
+          <Link className="link" to="/">
+            Home
+          </Link>
+          <Link className="link" to="/about">
+            About
+          </Link>
+          <Link className="link" to="/projects">
+            Projects
+          </Link>
         </div>
       </nav>
     </header>
